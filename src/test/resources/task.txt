@@ -1,0 +1,16 @@
+Alexander Beskhlebny  to  Everyone 16:35
+Three pages of an Enterpise Portal need to be covered with Automation Tests
+
+Application has a Login page, Products page and Shopping Cart page.
+Automation Tests should cover:
+- ability to login
+- verification that Products page has 6 Products
+- ability to add the Product with the highest price to the Cart
+- verification that Product is successfully added to the Cart
+
+Additional Information:
+Login page URL: https://www.saucedemo.com/
+Username: standard_user
+Password: secret_sauce
+
+abeskhlebny@hireright.com
