@@ -3,32 +3,32 @@
 This project contains Selenium tests written in Java to automate the testing of the [SauceDemo](https://www.saucedemo.com/) website. The tests cover various functionalities of the website including login, product page, and shopping cart operations.
 
 ## Project Structure
-src
-├── main
-│ ├── java
-│ │ └── com.saucedemo
-│ │ ├── base
-│ │ │ └── TestBase.java
-│ │ ├── constants
-│ │ │ └── TestConstants.java
-│ │ ├── exceptions
-│ │ │ └── SaucedemoLoginException.java
-│ │ ├── pages
-│ │ │ ├── LoginPage.java
-│ │ │ ├── ProductsPage.java
-│ │ │ └── ShoppingCartPage.java
-│ │ ├── utils
-│ │ │ ├── TestListener.java
-│ │ │ ├── TestUtils.java
-│ │ │ └── WebEventListener.java
-│ ├── resources
-│ │ └── config.properties
-├── test
-│ ├── java
-│ │ └── com.saucedemo
-│ │ │ ├── LoginTest.java
-│ │ │ └── ProductPageTest.java
-└── build.gradle
+- src
+  - main
+    - java
+      - com.saucedemo
+        - base
+          - TestBase.java
+      - constants
+          - TestConstants.java
+      - exceptions
+          - SaucedemoLoginException.java
+      - pages
+          - LoginPage.java
+          - ProductsPage.java
+          - ShoppingCartPage.java
+      - utils
+          - TestListener.java
+          - TestUtils.java
+          - WebEventListener.java
+      - resources
+          - config.properties
+  - test
+    - java
+      - com.saucedemo
+        - LoginTest.java
+        - ProductPageTest.java
+- build.gradle
 
 ## Configuration
 The config.properties file in the src/main/resources directory contains configuration settings for the tests, such as the URL of the SauceDemo site and browser settings.
@@ -43,7 +43,7 @@ To run the tests, use the following Gradle command:
 - Constants
   - **TestConstants.java**: Contains constant values used across the tests.
 - Exceptions
-  -** SaucedemoLoginException.java**: Custom exception for login-related errors.
+  - ** SaucedemoLoginException.java**: Custom exception for login-related errors.
 - Pages
   - **LoginPage.java**: Page Object Model (POM) class for the login page.
   - **ProductsPage.java**: POM class for the products page.
