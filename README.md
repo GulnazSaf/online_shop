@@ -35,7 +35,10 @@ The config.properties file in the src/main/resources directory contains configur
 
 Running the Tests
 To run the tests, use the following Gradle command:
-./gradlew test
+```bash
+  ./gradlew test
+```
+
 
 ## Project Components
 - Base
