@@ -49,9 +49,9 @@ To run the tests, use the following Gradle command:
   - **ProductsPage.java**: POM class for the products page.
   - **ShoppingCartPage.java**: POM class for the shopping cart page.
 - Utils
- - **TestListener.java**: Listener class for logging and capturing screenshots on test failures.
- - **TestUtils.java**: Utility methods used in tests.
- - **WebEventListener.java**: Event listener for logging WebDriver events.
+  - **TestListener.java**: Listener class for logging and capturing screenshots on test failures.
+  - **TestUtils.java**: Utility methods used in tests.
+  - **WebEventListener.java**: Event listener for logging WebDriver events.
 - Tests
   - **LoginTest.java**: Contains tests related to the login functionality.
   - **ProductPageTest.java**: Contains tests related to product page operations.
