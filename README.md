@@ -46,7 +46,7 @@ To run the tests, use the following Gradle command:
 - Constants
   - **TestConstants.java**: Contains constant values used across the tests.
 - Exceptions
-  - ** SaucedemoLoginException.java**: Custom exception for login-related errors.
+  - **SaucedemoLoginException.java**: Custom exception for login-related errors.
 - Pages
   - **LoginPage.java**: Page Object Model (POM) class for the login page.
   - **ProductsPage.java**: POM class for the products page.
